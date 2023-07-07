@@ -1,6 +1,14 @@
-1.- para activar el entorno virtual voy a Scripts y hago activate. En una consola
+Hay que agreagar pip con pip install
+pip list me dice los paquetes instalados
+pip install virtualenv (lo que busco es crear un entorno donde cargar paquetes solo en una carpeta)
+python -m venv venv (creo el entorno virtual se va a llamar venv)
+pip install flask
+pip install flask-MySQL
+pip install cryptography
+
+1. para activar el entorno virtual voy a Scripts y hago activate en la consola
 2. para desactivarlo hago deactivate.
-3. Si quiero que vscode habra directo con el venv activado, habro la carpeta y agrego un app.py
+3. Si quiero que vscode habra directo con el venv activado, abro la carpeta y agrego un app.py
 4. hago git init
 5. creo .gitignore
 6. Hago pip install flask
@@ -14,3 +22,12 @@
     - git remote add origin https://github.com/rocasoftw/sistema-empleados.git
     - git branch -M main
     - git push -u origin main
+13. Para no trabajar sobre la rama main y cambio de rama
+    - git switch -c develop
+14. Creo una nueva rama
+    - git switch -c 01-instancia-flask
+    - git push -u origin 01-instancia-flask para subir la nueva rama
+15. Vuelvo a la rama develop
+    - git push -u origin develop
+    - git merge 01-instancia-flask (uno lo que hice en la rama 01-instancia-flask con develop)
+    - git push (para subir los cambios)
