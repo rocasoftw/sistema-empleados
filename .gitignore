@@ -1,0 +1,5 @@
+# pongo el ** para que ignore las subcarpetas
+**/venv
+.vscode
+uploads
+__picache__ 

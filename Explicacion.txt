@@ -1,0 +1,10 @@
+1.- para activar el entorno virtual voy a Scripts y hago activate. En una consola
+2. para desactivarlo hago deactivate.
+3. Si quiero que vscode habra directo con el venv activado, habro la carpeta y agrego un app.py
+4. hago git init
+5. creo .gitignore
+6. Hago pip install flask
+7. Hago pip install flask-mysql
+8. Hago pip install cryptography
+9. Hago pip freeze > requeriments.txt para guardar las librerias necesarias
+    - Cuando lo subo al repositorio hago pip install -r requeriments.txt y asi obtengo las librerias que se necesitan
