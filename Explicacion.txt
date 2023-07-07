@@ -8,3 +8,9 @@
 8. Hago pip install cryptography
 9. Hago pip freeze > requeriments.txt para guardar las librerias necesarias
     - Cuando lo subo al repositorio hago pip install -r requeriments.txt y asi obtengo las librerias que se necesitan
+10. Hago git add . o * para preparar los archivos para ser subidos
+11. Creo el repositorio en github.com
+12. …or push an existing repository from the command line
+    - git remote add origin https://github.com/rocasoftw/sistema-empleados.git
+    - git branch -M main
+    - git push -u origin main
